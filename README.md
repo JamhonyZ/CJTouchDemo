@@ -21,6 +21,7 @@ step1:注册代理控制器
 step2:控制器实现响应的内容
 
 //实现代理
+
 UIViewControllerPreviewingDelegate
 
 //返回需要peek的控制器
