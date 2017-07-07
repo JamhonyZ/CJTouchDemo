@@ -16,13 +16,17 @@
 
 step1:注册代理控制器
 [controller registerForPreviewingWithDelegate:previewingDelegate sourceView:self.contentView];
+
 step2:控制器实现响应的内容
 //实现代理
 UIViewControllerPreviewingDelegate
+
 //返回需要peek的控制器
 - (UIViewController *)previewingContext:(id<UIViewControllerPreviewing>)previewingContext viewControllerForLocation:(CGPoint)location
+
 //对上面控制器的重力释放操作
 - (void)previewingContext:(id<UIViewControllerPreviewing>)previewingContext commitViewController:(UIViewController *)viewControllerToCommit
+
 step3：peek出来的控制器上滑内容
 //类似actionSheet的选择框
 - (NSArray<id<UIPreviewActionItem>> *)previewActionItems
