@@ -1,6 +1,5 @@
 # CJTouchDemo
-学习
-内部分享学习，本demo提供了iOS9（硬件6s后设备）3DTouch功能的使用，分别为应用icon的重力长按，控件的touch.force重力系数，peek&pop弹窗。
+团队内部分享学习，本demo提供了iOS9（硬件6s后设备）3DTouch功能的使用，分别为应用icon的重力长按，控件的touch.force重力系数，peek&pop弹窗。
 
 第一部分学习：
 
