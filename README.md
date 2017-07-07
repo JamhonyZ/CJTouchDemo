@@ -14,8 +14,7 @@
 
 参考Msg类
 
-step1:注册代理控制器
-[controller registerForPreviewingWithDelegate:previewingDelegate sourceView:self.contentView];
+step1:注册代理控制器[controller registerForPreviewingWithDelegate:previewingDelegate sourceView:self.contentView];
 step2:控制器实现响应的内容
 
 //实现代理
